@@ -5,12 +5,12 @@ const nodemailer = require("nodemailer");
 
 app = express();
 
-// Calling sendEmail() function every 1 minute
+// manda emails a cada minuto com a função sendMail()
 cron.schedule("*/1 * * * *", function() {
 sendMail();
 });
 
-// Send Mail function using Nodemailer
+// função sendMail() para enviar emails com o nodemailer
 function sendMail() {
 	let mailTransporter = nodemailer.createTransport({
 		service: "hotmail",
@@ -20,7 +20,7 @@ function sendMail() {
 		}
 	});
 	
-	// Setting credentials
+	// inserindo detalhes do email
 	let mailDetails = {
 		from: "(email)@hotmail.com",
 		to: "(email)@hotmail.com",
@@ -30,7 +30,7 @@ function sendMail() {
 	};
 	
 	
-	// Sending Email
+	// mensagem de erro ou sucesso
 	mailTransporter.sendMail(mailDetails,
 					function(err, data) {
 		if (err) {
