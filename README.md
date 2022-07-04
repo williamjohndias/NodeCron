@@ -22,9 +22,9 @@ cron.schedule("* * * * *", function() {
 });
 
 ******<br/>
-| | | | | -> Dias da semana<br/>
-| | | | -> Mês<br/>
-| | | -> Dias do mês<br/>
-| | -> Horas<br/>
-| -> Minutos<br/>
--> Segundos (opcional)<br/>
+****** -> Dias da semana<br/>
+*****-> Mês<br/>
+****-> Dias do mês<br/>
+***-> Horas<br/>
+**-> Minutos<br/>
+*-> Segundos (opcional)<br/>
