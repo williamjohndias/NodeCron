@@ -17,4 +17,14 @@ npm install nodemailer<br/>
 
 # Como usar
 
+cron.schedule("* * * * *", function() {
+    // o que ele vai repetir
+});
 
+* * * * * *
+. . . . . .> Dias da semana
+. . . . .> Mês
+. . . .> Dias do mês
+. . .> Horas
+. .> Minutos
+.> Segundos (opcional)
