@@ -21,10 +21,10 @@ cron.schedule("* * * * *", function() {
     // o que ele vai repetir
 });
 
-* * * * * *
-. . . . . .> Dias da semana
-. . . . .> Mês
-. . . .> Dias do mês
-. . .> Horas
-. .> Minutos
-.> Segundos (opcional)
+* * * * * *<br/>
+. . . . . .> Dias da semana<br/>
+. . . . .> Mês<br/>
+. . . .> Dias do mês<br/>
+. . .> Horas<br/>
+. .> Minutos<br/>
+.> Segundos (opcional)<br/>
