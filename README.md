@@ -22,9 +22,9 @@ cron.schedule("* * * * *", function() {
 });
 
 *os asteríscos tem este significado:*<br/>
-****** -> Dias da semana<br/>
-*****-> Mês<br/>
-****-> Dias do mês<br/>
-***-> Horas<br/>
-**-> Minutos<br/>
-*-> Segundos (opcional)<br/>
+6 *-> Dias da semana<br/>
+5 *-> Mês<br/>
+4 *-> Dias do mês<br/>
+3 *-> Horas<br/>
+2 *-> Minutos<br/>
+1 *-> Segundos (opcional)<br/>
