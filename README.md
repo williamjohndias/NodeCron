@@ -21,10 +21,10 @@ cron.schedule("* * * * *", function() {
     // o que ele vai repetir
 });
 
-*os asteríscos tem este significado:*<br/>
-6 *-> Dias da semana<br/>
-5 *-> Mês<br/>
-4 *-> Dias do mês<br/>
-3 *-> Horas<br/>
-2 *-> Minutos<br/>
+<strong>*os asteríscos tem este significado:*</strong><br/>
 1 *-> Segundos (opcional)<br/>
+2 *-> Minutos<br/>
+3 *-> Horas<br/>
+4 *-> Dias do mês<br/>
+5 *-> Mês<br/>
+6 *-> Dias da semana<br/>
