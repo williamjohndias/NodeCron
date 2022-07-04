@@ -13,6 +13,8 @@ npm i uidd<br/><br/>
 npm install express<br/>
 npm install nodecron<br/>
 npm i uidd<br/>
-npm install nodemailer
+npm install nodemailer<br/>
+
+# Como usar
 
 
