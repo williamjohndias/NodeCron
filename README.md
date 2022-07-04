@@ -17,9 +17,9 @@ npm install nodemailer<br/>
 
 # Como usar
 
-cron.schedule("* * * * *", function() {
-    // o que ele vai repetir
-});
+cron.schedule("* * * * *", function() {<br/>
+    // o que ele vai repetir<br/>
+});<br/>
 
 <strong>*os asteríscos tem este significado:*</strong><br/>
 1 *-> Segundos (opcional)<br/>
