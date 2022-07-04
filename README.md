@@ -1,13 +1,13 @@
 # NodeCron
 
-Dependências:<br/>
+<strong>Dependências:<br/></strong>
 
 npm install nodecron<br/>
 npm i uidd<br/><br/>
 
 # NodeCron para enviar e-mails<br/>
 
-Dependências:<br/>
+<strong>Dependências:<br/></strong>
 
 npm install nodecron<br/>
 npm i uidd<br/>
