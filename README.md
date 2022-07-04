@@ -6,7 +6,7 @@ npm install express<br/>
 npm install node-cron<br/>
 npm i uidd<br/><br/>
 
-# NodeCron para enviar e-mails<br/>
+# NodeCron para enviar e-mails (nodemailer)<br/>
 
 <strong>Dependências:<br/></strong>
 
